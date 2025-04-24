@@ -48,8 +48,8 @@ create table Users (
     Email varchar(20),
     PRIMARY KEY (ID)
     );
---rollback DROP table Users
+--rollback DROP table Users;
 
 --changeset gheifr:6 labels:0.0.3
 CREATE INDEX Email on Users(Email);
---rollback DROP INDEX Email
+--rollback DROP INDEX Email;
