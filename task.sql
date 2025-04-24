@@ -52,4 +52,4 @@ create table Users (
 
 --changeset gheifr:6 labels:0.0.3
 CREATE INDEX Email on Users(Email);
---rollback DROP INDEX Email;
+--rollback DROP INDEX Email on Users;
